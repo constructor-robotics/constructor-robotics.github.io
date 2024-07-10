@@ -1,8 +1,10 @@
-title: Constructor University Robotics
+title: Constructor Robotics
 description: Marine Robotics
 theme: just-the-docs
 
+logo: "/figures/Constructor-Color.png"
+favicon_ico: "/figures/CUIcon.png"
 url: https://constructor-robotics.github.io
 
 aux_links:
-  Template Repository: https://github.com/constructor-robotics/constructor-robotics.github.io
+  Repository: https://github.com/constructor-robotics/constructor-robotics.github.io

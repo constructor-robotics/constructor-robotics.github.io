@@ -1,8 +1,8 @@
 ---
 layout: default
-title: BlueROV Overview
+title: Linux and ROS Overview
 has_children: true
-nav_order: 4
+nav_order: 2
 ---
 
 Just test this side
