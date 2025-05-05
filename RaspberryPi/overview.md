@@ -27,3 +27,10 @@ sudo make install
 sudo pigpiod
 
 ```
+
+
+
+
+
+
+

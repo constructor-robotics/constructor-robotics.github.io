@@ -10,7 +10,7 @@ nav_order: 6
 
 
 
-# Static USB Assignment for sensors #
+# Static USB Assignment for sensors 
 
 In order to avoid the hassle of finding out what ports our sensors will reconnect to each time we disconnect them,
 we can assign a static name to a USB port and our device will always connect to the right port no matter where it is

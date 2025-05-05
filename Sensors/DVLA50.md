@@ -7,7 +7,7 @@ nav_order: 1
 
 # Doppler Velocity Log A50 Waterlink:
 
-ROS2 Driver: `https://github.com/GSO-soslab/waterlinked_dvl_ros`
+ROS2 Driver: `git@github.com:constructor-robotics/waterlinked_a50.git`
 
 
 

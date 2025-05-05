@@ -5,7 +5,16 @@ parent: PX4 and Pixhawk
 nav_order: 2
 ---
 
-Just test this side
+
+# PX4 install and flash of software
+
+Currently we work with 1.14. 1.15 has new updates to the ROS2 interface with its own client. Which is not implemented yet.
+The software can be downloaded with 
+`git clone -b release/1.14 https://github.com/PX4/PX4-Autopilot.git --recursive`
+This has to be fully tested in a docker container
+The modification of the PX4 software is located in bluerov2common ROS2 package (`git@github.com:constructor-robotics/bluerov2common.git`)
+
+
 
 
 # PX4 Commands
