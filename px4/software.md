@@ -25,7 +25,7 @@ Baro: `ms5611 status` or `ms5611 start/stop -X` -X/-S external und -I/-s Interna
 
 
 
-# Raspberry pi Settings for PX4 things
+# Raspberry pi Settings for PX4 things(prob old)
 
 `MicroXRCEAgent serial --dev /dev/ttyACM0 -b 921600` maybe add `ROS_DOMAIN_ID` here
 `uxrce_dds_client start -t serial -d /dev/ttyS2 -b 921600`
@@ -37,3 +37,34 @@ UXRCE_DDS_KEY = 1
 UXRCE_DDS_DOM_ID = 161
 UXRCE_DDS_AG_IP = 170524894
 ```
+
+
+# Network setup for the ethernet 
+This needs to go to `/fs/microsd/net.cfg` on the SD card by writing this to the console. 
+```
+echo DEVICE=eth0 > /fs/microsd/net.cfg
+echo BOOTPROTO=fallback >> /fs/microsd/net.cfg
+echo IPADDR=192.168.10.11 >> /fs/microsd/net.cfg
+echo NETMASK=255.255.255.0 >> /fs/microsd/net.cfg
+echo ROUTER=192.168.10.1 >> /fs/microsd/net.cfg
+echo DNS=1.1.1.1 >> /fs/microsd/net.cfg
+```
+
+# Micro-XRCE-DDS-Agent Install
+```
+git clone -b v2.4.2 https://github.com/eProsima/Micro-XRCE-DDS-Agent.git
+cd Micro-XRCE-DDS-Agent
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
+sudo ldconfig /usr/local/lib/
+```
+
+
+
+
+
+
+

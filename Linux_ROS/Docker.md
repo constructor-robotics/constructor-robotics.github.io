@@ -10,7 +10,7 @@ nav_order: 3
 Instead of installing every peace of software 1 by 1, we decided to take a dockers-approach.
 The setup is done on Mac, but on Linux machines everything should be easier, and work as well.
 The only difficult part is the display part, which maybe on linux needs a change in the docker-compose.yml
-To display e.g. a GUI in docker on Mac, you need to use [XQuartz](https://www.xquartz.org).
+To display e.g. a GUI in docker on Mac, you need to use [XQuartz](https://www.xquartz.org).(start XQuartz and run ```xhost +``` in a terminal)
 
 The idea is, that a devcontainer is used for the ROS2 setup together with its packages that are imporant.
 the workspace github is:
