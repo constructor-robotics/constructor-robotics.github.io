@@ -15,4 +15,8 @@ Here is a general overview of the BlueROV2 robot that was modified at Constructo
 
 
 
-
+# Software Infos:
+Pi1: `maintube@192.168.10.2`
+Pi2: `sensortube@192.168.10.3`
+px4: `sensortube@192.168.10.11`
+DVL: `sensortube@192.168.10.12`

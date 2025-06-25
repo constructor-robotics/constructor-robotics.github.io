@@ -15,7 +15,7 @@ This has to be fully tested in a docker container
 The modification of the PX4 software is located in bluerov2common ROS2 package (`git@github.com:constructor-robotics/bluerov2common.git`)
 
 
-
+Ip address on BlueROV: 192.168.10.11
 
 # PX4 Commands
 
@@ -51,6 +51,7 @@ echo DNS=1.1.1.1 >> /fs/microsd/net.cfg
 ```
 
 # Micro-XRCE-DDS-Agent Install
+In CMakeLists.txt change the 2.12.x to 2.12.1
 ```
 git clone -b v2.4.2 https://github.com/eProsima/Micro-XRCE-DDS-Agent.git
 cd Micro-XRCE-DDS-Agent
