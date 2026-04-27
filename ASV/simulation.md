@@ -10,13 +10,13 @@ nav_order: 1
 ### Clone the USV-enabled PX4 fork
 
 ```bash
-git clone -b dev-surface-vehicle https://github.com/timzarhansen/PX4-Autopilot.git --recursive
+git clone -b dev-surface-vehicle https://github.com/constructor-robotics/PX4-Autopilot.git --recursive
 cd PX4-Autopilot
 ```
 
 This pulls:
-- **PX4-Autopilot**: branch `dev-surface-vehicle` (commit `4bef482f89`)
-- **Gazebo Models submodule**: branch `dev-surface-vehicle-gz` from `timzarhansen/PX4-gazebo-models`
+- **PX4-Autopilot**: branch `dev-surface-vehicle` (commit `cdc973de5b`)
+- **Gazebo Models submodule**: branch `dev-surface-vehicle-gz` from `constructor-robotics/PX4-gazebo-models`
 
 ## Running the Simulation
 
